@@ -6,12 +6,9 @@
                 <!-- Mobile menu button -->
 
                 <div class="flex justify-between items-center w-full">
-                    <div class="flex flex-1 ml-6 xl:items-stretch xl:justify-between">
+                    <div class="flex flex-1 xl:items-stretch xl:justify-between">
                         <div class="flex shrink-0 items-center space-x-4">
-                            <img class="h-12 w-auto"
-                                src="https://www.totalenergies.fr/typo3conf/ext/de_site_package/Resources/Public/Dist/Images/Logo/totalenergies--vertical.svg"
-                                alt="Your Company" />
-                            <p class="text-primary font-semibold text-xs">Renouvelables</p>
+                            <img class="h-16 w-auto" src="public/Logo-energy.jpg" alt="Your Company" />
                         </div>
                         <div class="hidden xl:ml-6 xl:flex xl:items-center xl:space-x-5 ">
                             <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
