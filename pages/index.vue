@@ -35,6 +35,7 @@ const chartOptions = reactive({
     title: {
         text: "Comparaison de l'évolution de la production d'énergies renouvelables et grises en France",
     },
+    subtitle: { text: "Source: Enedis, RTE-France" },
     xAxis: { categories: [], title: { text: "Années" } },
     yAxis: {
         title: { text: "Production (TWh)" },
@@ -42,6 +43,7 @@ const chartOptions = reactive({
         min: 1,
         max: 1_000,
     },
+
     tooltip: {
         useHTML: true,
         formatter() {
