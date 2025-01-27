@@ -11,7 +11,7 @@
             </div>
             <div class="px-4 py-4 sm:px-6 flex items-start flex-col sm:flex-row sm:justify-between">
                 <TogglesButton :labelBase="'Filière'" :label="'Global'" @update:modelValue="toggleGlobalView" />
-                <TogglesButton :labelBase="'Reversed'" @update:modelValue="toggleChartTypes" />
+                <TogglesButton :labelBase="'Inverser'" @update:modelValue="toggleChartTypes" />
                 <TogglesButton :labelBase="'Mode ligne'" @update:modelValue="toggleLineMode" />
             </div>
         </div>
