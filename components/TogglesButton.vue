@@ -21,7 +21,7 @@ watch(() => enabled.value, (value) => {
 </script>
 
 <template>
-    <SwitchGroup as="div" class="flex items-center">
+    <SwitchGroup as="div" class="flex items-center mt-2 sm:mt-0">
         <SwitchLabel as="span" class="mr-4 text-sm">
             <span class="font-medium text-gray-900">{{ props.labelBase }}</span>
             {{ ' ' }}
